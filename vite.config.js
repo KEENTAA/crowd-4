@@ -17,7 +17,7 @@ export default defineConfig({
   },
   server: {
     headers: {
-      "Permissions-Policy": "geolocation=(), microphone=(), camera=(), fullscreen=()" // ✔️ Directivas actualizadas
+      "Permissions-Policy": "geolocation=(), microphone=(), camera=()" // ✔️ Directivas actualizadas
     }
   }
 })
